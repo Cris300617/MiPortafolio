@@ -39,7 +39,7 @@ export default function Portafolio() {
 
           <div className="info-perfil">
             <h1>Cristóbal Felipe Picarte Yáñez</h1>
-            <h2>Ingeniero Civil Informático</h2>
+            <h2>Data Analyst & Software Developer</h2>
 
             <div className="datos">
               <p>
@@ -132,16 +132,17 @@ export default function Portafolio() {
 
         <div className="contenido">
             <p>
-            Estudiante de <span>Ingeniería Civil Informática</span> en la Universidad Andrés Bello,
-            con experiencia práctica en <span>desarrollo de software</span> y <span>automatización de procesos</span>.
-            Domino el <span>desarrollo frontend</span> utilizando <span>React</span> y <span>Javascript</span>,
-            poseo conocimientos de nivel medio en lenguajes como <span>Python</span>, <span>Java</span> y <span>C#</span> además de familiaridad con tecnologías como <span>Angular</span>.
-            </p>
+              Ingeniero Civil Informático con enfoque en <span>análisis de datos</span> y <span>desarrollo de software</span>. 
+              Experiencia en <span>extracción, limpieza y visualización de datos</span> utilizando herramientas como 
+              <span>Python (Pandas)</span>, <span>SQL</span> y <span>Power BI</span>, además de desarrollo de aplicaciones con 
+              <span>React</span>, <span>JavaScript</span> y <span>Angular</span>.
+              </p>
 
-            <p>
-            Me destaco por mi capacidad analítica en la <span>resolución de problemas técnicos</span>,
-            el desarrollo de <span>MVPs de software</span> y la implementación de soluciones eficientes orientadas a resultados.
-            Soy un profesional con alta motivación por el <span>aprendizaje continuo</span> y por aplicar tecnología en entornos reales.
+              <p>
+              Me especializo en transformar datos en <span>insights accionables</span> para la toma de decisiones, 
+              así como en el desarrollo de soluciones tecnológicas eficientes. 
+              Cuento con experiencia en <span>automatización de procesos</span>, integración de APIs y construcción de 
+              <span> dashboards interactivos</span>.
             </p>
 
             <div className="habilidades">
@@ -157,6 +158,11 @@ export default function Portafolio() {
             <span><Icon icon="devicon:unrealengine" className="icon-chico" /> Unreal Engine 5</span>
             <span><Icon icon="hugeicons:office-365" className="icon-chico" /> Microsoft Office 365</span>
             <span><Icon icon="icon-park:thinking-problem" className="icon-chico" /> Resolución de Problemas</span>
+            <span><Icon icon="mdi:database" className="icon-chico" /> SQL</span>
+            <span><Icon icon="logos:power-bi" className="icon-chico" /> Power BI</span>
+            <span><Icon icon="simple-icons:pandas" className="icon-chico" /> Pandas</span>
+            <span><Icon icon="mdi:chart-line" className="icon-chico" /> Data Analysis</span>
+            <span><Icon icon="mdi:api" className="icon-chico" /> APIs</span>
             </div>
         </div>
     </PerfilProfesionalCard>
@@ -245,11 +251,12 @@ export default function Portafolio() {
 
                     <div className="descripcion">
                     <p>
-                        Aplicación móvil desarrollada para administrar tareas y funciones dentro de un cine.
+                      Aplicación móvil para gestión de operaciones en cine, incluyendo 
+                      <span> manejo de datos</span>, automatización de tareas y optimización de procesos.
                     </p>
                     </div>
 
-                    <a className="btn-proyecto" href="#" target="_blank" rel="noreferrer">
+                    <a className="btn-proyecto" href="https://github.com/Cris300617/Proyecto_Cine" target="_blank" rel="noreferrer">
                     Ver Proyecto →
                     </a>
                 </ProyectoBox>
